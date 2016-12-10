@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtRowNumber"
+        android:layout_width="35dip"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:gravity="center|center_vertical"
+        android:padding="2dip"
+        android:textColor="#ff000000"
+        android:text="001"
+        android:textSize="16sp"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:id="@+id/txtRowVoiceType"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:gravity="center|center_vertical"
+        android:padding="2dip"
+        android:textColor="#ff000000"
+        android:text="fa0001"
+        android:textSize="16sp"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:id="@+id/txtRowRate"
+        android:layout_width="50dip"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:gravity="center|center_vertical"
+        android:padding="2dip"
+        android:textColor="#ff000000"
+        android:text="1.00"
+        android:textSize="16sp"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:id="@+id/txtRowPitch"
+        android:layout_width="50dip"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:gravity="center|center_vertical"
+        android:padding="2dip"
+        android:textColor="#ff000000"
+        android:text="1.00"
+        android:textSize="16sp"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:id="@+id/txtRowVoiceText"
+        android:layout_weight="1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:gravity="left|center_vertical"
+        android:padding="2dip"
+        android:textColor="#ff000000"
+        android:text="こんにちは"
+        android:textSize="16sp"
+        android:focusable="false"
+        />
+
+    <CheckBox
+        android:id="@+id/checkUseFlag"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:gravity="center|center_vertical"
+        android:padding="2dip"
+        android:focusable="false"
+        />
+</LinearLayout>

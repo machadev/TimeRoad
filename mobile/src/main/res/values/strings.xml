@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">今何時？</string>
+
+    <string-array name="array_voice">
+        <item name="fa001">女性A-1 fa001</item>
+        <item name="fa002">女性A-2 fa002</item>
+        <item name="fa003">女性A-3 fa003</item>
+        <item name="fa004">女性A-4 fa004</item>
+        <item name="fa005">女性A-5 fa005</item>
+        <item name="fb001">女性B-1 fb001</item>
+        <item name="fb002">女性B-2 fb002</item>
+        <item name="fb003">女性B-3 fb003</item>
+        <item name="fb004">女性B-4 fb004</item>
+        <item name="fb005">女性B-5 fb005</item>
+        <item name="ma001">男性A-1 ma001</item>
+        <item name="ma002">男性A-2 ma002</item>
+        <item name="ma003">男性A-3 ma003</item>
+        <item name="ma004">男性A-4 ma004</item>
+        <item name="ma005">男性A-5 ma005</item>
+        <item name="mb001">男性B-1 mb001</item>
+        <item name="mb002">男性B-2 mb002</item>
+        <item name="mb003">男性B-3 mb003</item>
+        <item name="mb004">男性B-4 mb004</item>
+        <item name="mb005">男性B-5 mb005</item>
+    </string-array>
+</resources>
